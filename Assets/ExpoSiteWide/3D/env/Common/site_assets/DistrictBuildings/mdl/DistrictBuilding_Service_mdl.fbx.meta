@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 2840436378e1a0d4db19a89c20e9a009
+labels:
+- BakeLowLOD
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingKit
+    second: {fileID: 2100000, guid: cd09fa986e3a0284eb0db349cc8cea23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingKit_mat
+    second: {fileID: 2100000, guid: cd09fa986e3a0284eb0db349cc8cea23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: ae2cacb49d76698488755bfa7c82eab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Light02_mat
+    second: {fileID: 2100000, guid: cb09a72a839e1394db0dcc45c31ed62a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_ElevatorShaft_mat
+    second: {fileID: 2100000, guid: 1f6a75f89780cd54cb8db19455ce3bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_FirstFloor01_mat
+    second: {fileID: 2100000, guid: 104e39a30ee547341903a5abd1d4fe94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_FirstFloor02_mat
+    second: {fileID: 2100000, guid: 191627eaa7ba33b4b931ff236097810d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_LOD_mat
+    second: {fileID: 2100000, guid: 5519628af09b67c4595f992920c3d10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_Projection01_mat
+    second: {fileID: 2100000, guid: 31f5ceabc59416e4e88c3d453cd85ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_Projection02_mat
+    second: {fileID: 2100000, guid: 31f5ceabc59416e4e88c3d453cd85ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_Projection_mat
+    second: {fileID: 2100000, guid: 31f5ceabc59416e4e88c3d453cd85ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_SecondFloor_Glass_mat
+    second: {fileID: 2100000, guid: 8b0f3f0ad2ba1e14290bc1c5f792859f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_SecondFloor_mat
+    second: {fileID: 2100000, guid: 96481e9617b52484f8de4ef108f7229f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_lod_mat
+    second: {fileID: 2100000, guid: 02a320975e8054448a1b4b6c8b5ecb57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuilding_Service_mat
+    second: {fileID: 2100000, guid: 31f5ceabc59416e4e88c3d453cd85ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DistrictBuildings_mat
+    second: {fileID: 2100000, guid: cd09fa986e3a0284eb0db349cc8cea23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Far_LOD_mat
+    second: {fileID: 2100000, guid: e379f7199d2a3ea478372d8fb423b74f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: cfaf1a98daf9a4648acb02540a46b44d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Triangle_mat
+    second: {fileID: 2100000, guid: 44cc1a94b69389a48bd2751c7b6e6699, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.03125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 1
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: Magnopus.Pipeline:{"Data":[{"key":"CustomAssetImporter","value":"{\"MeshCompression\":0,\"IsReadable\":0,\"ImportBlendShapes\":0,\"ImportVisibility\":0,\"ImportCameras\":0,\"ImportLights\":0,\"PreserveHierarchy\":0,\"SortHierarchyByName\":0,\"OptimizeMeshFlags\":0,\"LegacyBlendShapeNormals\":0,\"AnimationType\":0,\"SourceAvatar\":0,\"ImportAnimation\":0,\"ImportMaterials\":1,\"MaterialImportMode\":0,\"MaterialName\":0,\"MaterialLocation\":0,\"MaterialSearch\":0}"},{"key":"ReimportFileFrom","value":"{\"SourcePath\":\"P:/parasol/3D/Environment/ServicePavilion/Model/ServicePavilion_mdl.fbx\"}"}]}
+  assetBundleName: 
+  assetBundleVariant: 

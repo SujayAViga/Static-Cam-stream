@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Foliage_Tree_PeltophorumPterocarpum_mat
+  m_Shader: {fileID: 4800000, guid: c111e6063781afd4da1e0abfbecaa715, type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSIVETOGGLE_ON _TREELIGHT_ON _USEWINDHEIGHTMASK_ON
+    _YUPMASK_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 2800000, guid: e97a1a2a2c081a047adb214c82bc6887, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: bd9d9e2c0dc294641b5d7b25c7f9ebe7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor1:
+        m_Texture: {fileID: 2800000, guid: afc4e7b1baa071d4a8bf5c5aa5867a60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color:
+        m_Texture: {fileID: 2800000, guid: bd9d9e2c0dc294641b5d7b25c7f9ebe7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: bd9d9e2c0dc294641b5d7b25c7f9ebe7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FabricEmissiveMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bd9d9e2c0dc294641b5d7b25c7f9ebe7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 507437b55f1623d4ea0c4e96f7c592d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise1:
+        m_Texture: {fileID: 2800000, guid: 507437b55f1623d4ea0c4e96f7c592d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: a40573297c50431409d31eb3c07fa7d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Opacity:
+        m_Texture: {fileID: 2800000, guid: e63174b554f066946a307f765a1490c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolNoisePatter_basecolor:
+        m_Texture: {fileID: 2800000, guid: 98103f830c483b54da2215be0724e297, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_basecolor:
+        m_Texture: {fileID: 2800000, guid: afc4e7b1baa071d4a8bf5c5aa5867a60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_normal:
+        m_Texture: {fileID: 2800000, guid: 3940fd53c614d7f4993ce07197ca41ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_roughness:
+        m_Texture: {fileID: 2800000, guid: 9996200b3af7d2a48ac192aaf1230022, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 2800000, guid: f1eb7b1ab6b767b449a56eb3d697e4de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: f1eb7b1ab6b767b449a56eb3d697e4de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _noise:
+        m_Texture: {fileID: 2800000, guid: 20cac38a9b5ffa145bc9f8ffa28e637e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _woman_umbrella:
+        m_Texture: {fileID: 2800000, guid: 1ed7196ce30e722489990c91f7562e58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMax: 1
+    - _AOMin: 0.403
+    - _AlphaAdjust: 0
+    - _AmbientColor: 0
+    - _BCLerp: 0
+    - _BFalloff: 0.1
+    - _BHeight: 0
+    - _BotFalloff: 0.15
+    - _BotLightHeight: -6.7
+    - _BottomLightHeight: -0.09
+    - _BottomLightTightness: 0.22
+    - _BumpScale: 1
+    - _ColorBrightness: 1
+    - _ColorContrast: 1
+    - _ColorContrast1: 1
+    - _Cutoff: 0.5
+    - _DetailColorBlend: 0
+    - _DetailMaskToggle: 0
+    - _DetailNormalIntensity: 1
+    - _DetailNormalMapScale: 1
+    - _DetailOffsetU: 0
+    - _DetailOffsetV: 0
+    - _DetailTextureToggle: 0
+    - _DetailTilingU: 1
+    - _DetailTilingV: 1
+    - _DiffuseIntensity: 0
+    - _DitherAlpha: 0
+    - _DoubleSided: 0
+    - _DstBlend: 0
+    - _EmissionIntensity: 0
+    - _EmissionMult: 1
+    - _EmissiveGlow: 1
+    - _EmissiveGradient: 0
+    - _EmissiveIntensity: 0.2
+    - _EmissiveToggle: 1
+    - _EmissiveType: 0
+    - _EnablePBRSafeFilter: 1
+    - _FABRICPROJECTION_ON: 0
+    - _Fabric: 0
+    - _FabricMaskOffsetU: 0
+    - _FabricMaskOffsetV: 0
+    - _FabricMaskTilingX: 1
+    - _FabricMaskTilingY: 1
+    - _FabricProjection: 0
+    - _FallOff: 0.1
+    - _Falloff: 1
+    - _FlipYNormal: 1
+    - _Float0: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Height: 0
+    - _HeightMapValue: 0.075
+    - _HeightMapValue1: 0.054
+    - _HeightMask: 0
+    - _HeightMask1: 0
+    - _HeightWindMask: 0
+    - _Hue: 0
+    - _Keyword0: 0
+    - _LeafColorVariation: 0.054
+    - _Metallic: 0
+    - _MetallicAdjust: 0
+    - _Mode: 1
+    - _NoiseIntensity: 0
+    - _NoiseIntensity1: 0
+    - _NoiseTiling: 1
+    - _NoiseTiling1: 1
+    - _NormalIntensity: 1
+    - _NormalScale: 1
+    - _OcclusionContrast: 1
+    - _OcclusionStrength: 1
+    - _OcclusiononBaseColor: 0
+    - _Offset: 0
+    - _OffsetU: 0
+    - _OffsetV: 0
+    - _PBRSafeFilter: 1
+    - _PBRSafeOverride: 0
+    - _Parallax: 0.02
+    - _ParasolWindIntensity: 0.05
+    - _RotateDetailUV: 0
+    - _RotateDetailUVToggle: 0
+    - _RotateUVAngle: 0
+    - _RotateUVToggle: 0
+    - _RoughnessAdjust: 0
+    - _RoughnessCeiling: 0.893
+    - _RoughnessContrast: 1
+    - _RoughnessFloor: 0
+    - _Saturation: 0
+    - _ShadowNoise: 0
+    - _Shininess: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _THeight: 0
+    - _TextureOffsetU: 0
+    - _TextureOffsetU1: 1
+    - _TextureOffsetV: 0
+    - _TextureOffsetV1: 1
+    - _TextureTilingU: 1
+    - _TextureTilingU1: 1
+    - _TextureTilingV: 1
+    - _TextureTilingV1: 1
+    - _Thickness: 0.793
+    - _Tightness: 1
+    - _Tile: 0
+    - _Tiling: 1
+    - _TilingU: 1
+    - _TilingV: 1
+    - _TopFalloff: 1
+    - _TopHeight: 4.3
+    - _TopLightFalloff: 0.804
+    - _TopLightHeight: 1.91
+    - _TopLightTightness: 0.2
+    - _TopsFalloff: 0.25
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _TransmissiveLightingType: 0
+    - _TransmissiveMaskVertexColorChannel: 2
+    - _Transmittance: 1
+    - _TreeLight: 1
+    - _TreeLightIntensity: 0.39
+    - _TreeLightOn: 0.942
+    - _TreeNoisespeed: 0.1
+    - _TreeNoisespeed1: 0.1
+    - _TreeTiling: 1
+    - _TreeTop: 64.70588
+    - _UNITY_PASS_FORWARDBASE: 0
+    - _UVSec: 0
+    - _UseEmission: 0
+    - _UseVertexColorTint: 0
+    - _UseWindHeightMask: 1
+    - _Value: 0
+    - _WindHeightMask: 0.177
+    - _WindIntensity: 1
+    - _YUpMask: 1
+    - _YupTightness: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    - _normal_intensity: 1
+    m_Colors:
+    - _BC: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 0}
+    - _DetailColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FabricEmissionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 0}
+    - _TileandOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _TranslucentColor: {r: 0.9140714, g: 1, b: 0.49056602, a: 1}
+    - _TreeLightColor: {r: 0.84878963, g: 0.9244394, b: 0.9622642, a: 1}
+    - _UVOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _UVTile: {r: 0, g: 0, b: 0, a: 0}
+    - _ambocc_color: {r: 0, g: 0, b: 0, a: 0}
+    - _shadow_color: {r: 0.2152902, g: 0.273723, b: 0.5566038, a: 0}

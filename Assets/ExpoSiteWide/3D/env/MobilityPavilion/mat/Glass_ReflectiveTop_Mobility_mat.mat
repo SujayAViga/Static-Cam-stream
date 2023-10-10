@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glass_ReflectiveTop_Mobility_mat
+  m_Shader: {fileID: 4800000, guid: 4887c70bfbcc3484c95dc1ee06bf675e, type: 3}
+  m_ShaderKeywords: _FLIPLIGHTDIRECTION_ON _OVERRIDENIGHTCOLOR_ON _STYLIZEDREFLECTION_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: f9ec282e94bdae74f9025d52d785478b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 2800000, guid: 7fff759bee754ac46ad777f09cf09753, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 669bd1207c2536c41bd47d8697929177, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 2800000, guid: 3811dfe8bd73205479346b115610cf1b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - reflection_texture_night1:
+        m_Texture: {fileID: 8900000, guid: 33a5e51ba6a0a6f498811d03b62aabee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - ShaderOptions: 0
+    - _AOMax: 1
+    - _AOMin: 0
+    - _ArrayIndex: 0
+    - _BakedEmissiveIntensityDay: 1
+    - _BakedEmissiveIntensityNight: 1
+    - _BlendGlassReflectionMax: 1
+    - _BotFalloff: -4.3
+    - _BotLightHeight: 18
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DaytimeEmissiveValue: 0.41
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 1
+    - _DstBlend: 0
+    - _EmissionOffsetX: 1
+    - _EmissionOffsetY: 1
+    - _EmissionTilingX: 0.1
+    - _EmissionTilingY: 1
+    - _EmissiveType: 3
+    - _FlipLightDirection: 1
+    - _FlipYNormal: 1
+    - _GlassColorMixBack: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _HueMax: 1
+    - _HueMin: 0
+    - _IncreaseMetalness: 1
+    - _Keyword3: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OverrideDayColor: 0
+    - _OverrideNightColor: 1
+    - _PBRSafeFilter: 1
+    - _Parallax: 0.02
+    - _PerPixelFogAmount: 1
+    - _ProjectionEmission: 0
+    - _ReflectionAngleScaler: -0.07
+    - _Reflectivity: 0.379
+    - _Roughness: 0
+    - _RoughnessCeiling: 0.108
+    - _RoughnessContrast: 1
+    - _RoughnessFloor: 0.077
+    - _RoughnessTiling: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StylizedReflection: 1
+    - _StylizedReflections: 1
+    - _TextureOffsetU: 1
+    - _TextureOffsetV: 1
+    - _TextureTilingU: 0.1
+    - _TextureTilingV: 1
+    - _ToggleDiffuse: 0
+    - _TopLightFalloff: 8
+    - _TopLightHeight: 7.9
+    - _TreeLightOn: 1
+    - _UVChannel: 1
+    - _UVSec: 0
+    - _UseVertexColorforTint: 0
+    - _VertexAOMinimumValue: 0.5
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BakedEmissionColorDay: {r: 0.4622642, g: 0.4622642, b: 0.4622642, a: 0}
+    - _BakedEmissionColorNight: {r: 2.79544, g: 1.9904705, b: 0.9659636, a: 1}
+    - _BaseColor_ColorTint: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorTint: {r: 0.049661797, g: 0.16472559, b: 0.33962262, a: 1}
+    - _EmissionColor: {r: 1.0076064, g: 0.83170295, b: 0.34817815, a: 1}
+    - _EmissionCompliment: {r: 0, g: 0, b: 0, a: 0}
+    - _GlassColor: {r: 0.1494304, g: 0.21698111, b: 0.21130411, a: 0}
+    - _GlassEdges: {r: 0.20630118, g: 0.30775252, b: 0.5754717, a: 0}
+    - _UplightLightColor: {r: 1, g: 0.8502275, b: 0.4292453, a: 1}

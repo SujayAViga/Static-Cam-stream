@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DistrictBuilding_Service_FirstFloor01_mat
+  m_Shader: {fileID: 4800000, guid: 4887c70bfbcc3484c95dc1ee06bf675e, type: 3}
+  m_ShaderKeywords: _EMISSIONSWITCH_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 8eeed5858936525408ecbed42cd80a19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistrictBuildings_texRMAO:
+        m_Texture: {fileID: 2800000, guid: f29fba69348899543ae231cf981596be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 2800000, guid: f07d84533d69d0848b0a33666eb6364c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassMask:
+        m_Texture: {fileID: 2800000, guid: 96ce6d44746e4b844879461947c45cb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 52102c6f336ab23418a4e6b3421e07cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolNoisePatter_basecolor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_basecolor:
+        m_Texture: {fileID: 2800000, guid: c54bf52900cd9554193b4ac9e1d7cf1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_normal:
+        m_Texture: {fileID: 2800000, guid: cb4a0d106759d5044bca6683facd95c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_roughness:
+        m_Texture: {fileID: 2800000, guid: abc59ff20a69a014d8707d812d253c03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 2800000, guid: 3d14533c098ce2e40a6bf5e0337e615a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTexture_basecolor_HDR1:
+        m_Texture: {fileID: 2800000, guid: 2db904f3fac11af468372eee7070e300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: 3d14533c098ce2e40a6bf5e0337e615a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMax: 1
+    - _BCLerp: 0
+    - _BakedEmissiveIntensityDay: 1
+    - _BakedEmissiveIntensityNight: 1
+    - _BotFalloff: 0.37
+    - _BotLightHeight: -0.37
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DaytimeEmissiveValue: 0
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 1
+    - _DstBlend: 0
+    - _EmissionMult: 0
+    - _EmissionOffsetX: 1
+    - _EmissionOffsetY: 1
+    - _EmissionSwitch: 1
+    - _EmissionTilingX: 1
+    - _EmissionTilingY: 1
+    - _EmissiveType: 3
+    - _EnablePBRSafeFilter: 1
+    - _FlipLightDirection: 0
+    - _FlipYNormal: 1
+    - _GlassBaseColormix: 0.536
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _HueMax: 2.81
+    - _HueMin: -1
+    - _IncreaseMetalness: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OverrideDayColor: 0
+    - _OverrideNightColor: 0
+    - _PBRSafeFilter: 1
+    - _Parallax: 0.02
+    - _PerPixelFogAmount: 1
+    - _ProjectionEmission: 0
+    - _RoughnessCeiling: 1
+    - _RoughnessContrast: 1
+    - _RoughnessFloor: 0
+    - _RoughnessTiling: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureOffsetU: 1
+    - _TextureOffsetV: 1
+    - _TextureTiling: 1
+    - _TextureTilingU: 1
+    - _TextureTilingV: 1
+    - _TopLightFalloff: -1.9
+    - _TopLightHeight: 8.3
+    - _TreeLightOn: 0.3
+    - _UVChannel: 1
+    - _UVSec: 0
+    - _UseVertexColorTint: 0
+    - _UseVertexColorforTint: 0
+    - _UvSwitch: 0
+    - _VRTXAmbocc: 0
+    - _VertexAOMinimumValue: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    - _power: 1.64
+    m_Colors:
+    - _BC: {r: 1, g: 1, b: 1, a: 0}
+    - _BakedEmissionColorDay: {r: 0.4622642, g: 0.4622642, b: 0.4622642, a: 0}
+    - _BakedEmissionColorNight: {r: 1, g: 0.8169013, b: 0, a: 0}
+    - _Color: {r: 0.6583875, g: 0.46777576, b: 0.26225138, a: 1}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0.8584906, g: 0.7724219, b: 0.62767, a: 1}
+    - _EmissionCompliment: {r: 0.86073875, g: 0.8862745, b: 0.47770196, a: 1}
+    - _UplightLightColor: {r: 1, g: 0.97490567, b: 0.3726415, a: 1}
+    - _ambocc_color: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5df344bbe6e20a14c97acedf230cc302
+labels:
+- ExpoSiteShader
+- Parasol
+- Recompile
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TintMask: {fileID: 2800000, guid: f9ec282e94bdae74f9025d52d785478b, type: 3}
+  - StandardLUT: {fileID: 2800000, guid: f52d7d612a20d9e48bf402c6fd20c6ee, type: 3}
+  - SecondLUT: {fileID: 2800000, guid: 993bd617920fc3946a9335909db33769, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

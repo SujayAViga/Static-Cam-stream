@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bench_Generic_mat
+  m_Shader: {fileID: 4800000, guid: 4887c70bfbcc3484c95dc1ee06bf675e, type: 3}
+  m_ShaderKeywords: _VRTXAMBOCC_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 86b287aed65482e4f86d34dc4c124530, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Brush_Stroke:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Color:
+        m_Texture: {fileID: 2800000, guid: 2fc4f029fe061f842973b1cdc10eb493, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistrictBuildings_texRMAO:
+        m_Texture: {fileID: 2800000, guid: 9e4664ccdc440e84e87d891e709961c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: f45864e677eff1a4b850b2948e220686, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolNoisePatter_basecolor:
+        m_Texture: {fileID: 2800000, guid: 98103f830c483b54da2215be0724e297, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolNoisePatter_basecolor1:
+        m_Texture: {fileID: 2800000, guid: 34e9988144d57c843872c0940d11f660, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_basecolor:
+        m_Texture: {fileID: 2800000, guid: 3ef6293aaac476347bb4818ba23e5e40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_normal:
+        m_Texture: {fileID: 2800000, guid: db75435f897a91841b6d762a3456ddfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParasolPatterns_roughness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 2800000, guid: 4fe5b611988a84743bf5d571380d0cda, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoomTexture_basecolor_HDR1:
+        m_Texture: {fileID: 2800000, guid: 2db904f3fac11af468372eee7070e300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMax: 1
+    - _AOMin: 0
+    - _BCLerp: 0
+    - _BakedEmissiveIntensityDay: 1
+    - _BakedEmissiveIntensityNight: 1
+    - _BotFalloff: 0.02
+    - _BotLightHeight: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _ColorContrast: 1.5
+    - _CullingMode1: 2
+    - _Cutoff: 0.5
+    - _DaytimeEmissiveValue: 0.263
+    - _DetailColorBlend: 0
+    - _DetailMaskToggle: 0
+    - _DetailNormalIntensity: 1
+    - _DetailNormalMapScale: 1
+    - _DetailOffsetU: 0
+    - _DetailOffsetV: 0
+    - _DetailTextureToggle: 0
+    - _DetailTilingU: 1
+    - _DetailTilingV: 1
+    - _DiffuseIntensity: 1
+    - _DstBlend: 0
+    - _EmissionMult: 1
+    - _EmissionOffsetX: 1
+    - _EmissionOffsetY: 1
+    - _EmissionTilingX: 1
+    - _EmissionTilingY: 1
+    - _EmissiveGlow: 1
+    - _EmissiveGradient: 0
+    - _EmissiveToggle: 0
+    - _EmissiveType: 1
+    - _EnablePBRSafeFilter: 1
+    - _FlipLightDirection: 0
+    - _FlipYNormal: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Height: 0
+    - _Hue: 0
+    - _HueMax: 1
+    - _HueMin: 0
+    - _IncreaseMetalness: 0
+    - _Metallic: 0
+    - _MetallicAdjust: 0
+    - _Mode: 3
+    - _NoiseAmount: 0
+    - _NormalIntensity: 1
+    - _NormalScale: 1
+    - _OcclusionContrast: 1
+    - _OcclusionStrength: 1
+    - _OcclusiononBaseColor: 0
+    - _OffsetU: 0
+    - _OffsetV: 0
+    - _OverrideDayColor: 0
+    - _OverrideNightColor: 0
+    - _PBRColorContrast: 0
+    - _PBRSafeFilter: 1
+    - _Parallax: 0.02
+    - _PerPixelFogAmount: 1
+    - _ProjectionEmission: 0
+    - _RoomOffset: 0
+    - _RotateDetailUV: 0
+    - _RotateDetailUVToggle: 0
+    - _RotateTexture: 0
+    - _RotateUVAngle: 0
+    - _RotateUVToggle: 0
+    - _RoughnessAdjust: 0.5
+    - _RoughnessCeiling: 0.493
+    - _RoughnessContrast: 1
+    - _RoughnessFloor: 0.645
+    - _RoughnessTiling: 1
+    - _Saturation: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureOffsetU: 1
+    - _TextureOffsetV: 1
+    - _TextureTiling: 1
+    - _TextureTilingU: 1
+    - _TextureTilingV: 1
+    - _TilingU: 1
+    - _TilingV: 1
+    - _TopLightFalloff: -0.9
+    - _TopLightHeight: 2.8
+    - _TreeLightOn: 0.581
+    - _UVChannel: 1
+    - _UVSec: 0
+    - _UseVertexColorTint: 0
+    - _UseVertexColorforTint: 0
+    - _UvSwitch: 0
+    - _VRTXAmbocc: 1
+    - _Value: 0
+    - _VertexAOMinimumValue: 0.5
+    - _Width: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    - _power: 0
+    m_Colors:
+    - _BC: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 0}
+    - _BakedEmissionColorDay: {r: 0.4622642, g: 0.4622642, b: 0.4622642, a: 0}
+    - _BakedEmissionColorNight: {r: 1, g: 0.8169013, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 0}
+    - _DetailColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.028, g: 0.028, b: 0.035, a: 1}
+    - _EmissionCompliment: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Main_color: {r: 1, g: 1, b: 1, a: 0}
+    - _UplightLightColor: {r: 0.509434, g: 0.4517622, b: 0.43974727, a: 1}
+    - _ambocc_color: {r: 0, g: 0, b: 0, a: 0}
+    - _outline_color: {r: 0.21529016, g: 0.27372298, b: 0.5566037, a: 0}
+    - _shadow_color: {r: 0.21529016, g: 0.27372298, b: 0.5566037, a: 0}

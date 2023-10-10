@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c111e6063781afd4da1e0abfbecaa715
+labels:
+- ExpoSiteShader
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Noise: {fileID: 2800000, guid: 507437b55f1623d4ea0c4e96f7c592d5, type: 3}
+  - SecondLUT: {fileID: 2800000, guid: 993bd617920fc3946a9335909db33769, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

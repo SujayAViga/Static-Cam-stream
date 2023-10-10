@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Emissive_Blue_mat
+  m_Shader: {fileID: 4800000, guid: 4887c70bfbcc3484c95dc1ee06bf675e, type: 3}
+  m_ShaderKeywords: _EMISSION _EMISSIONSWITCH_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: ad56d8933b0d70a4abc68e4fa77b036b, type: 3}
+        m_Scale: {x: 0.91, y: 0.01}
+        m_Offset: {x: 2.64, y: 0.51}
+    - _EmissionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.91, y: 0.01}
+        m_Offset: {x: 2.64, y: 0.51}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOMax: 1
+    - _BakedEmissiveIntensityDay: 1
+    - _BakedEmissiveIntensityNight: 1
+    - _BotFalloff: 1
+    - _BotLightHeight: 0
+    - _BumpScale: 1
+    - _CullingMode1: 2
+    - _Cutoff: 0.5
+    - _DaytimeEmissiveValue: 1
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 1
+    - _DstBlend: 0
+    - _EmissionOffsetX: 1
+    - _EmissionOffsetY: 1
+    - _EmissionSwitch: 1
+    - _EmissionTilingX: 1
+    - _EmissionTilingY: 1
+    - _EmissiveType: 0
+    - _EnablePBRSafeFilter: 1
+    - _FlipLightDirection: 0
+    - _FlipYNormal: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IncreaseMetalness: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalScale: 1
+    - _OcclusionStrength: 1
+    - _OverrideDayColor: 0
+    - _OverrideNightColor: 0
+    - _PBRSafeFilter: 1
+    - _Parallax: 0.02
+    - _ProjectionEmission: 0
+    - _RoughnessCeiling: 1
+    - _RoughnessContrast: 1
+    - _RoughnessFloor: 0
+    - _RoughnessTiling: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TextureOffsetU: 1
+    - _TextureOffsetV: 1
+    - _TextureTiling: 1
+    - _TextureTilingU: 1
+    - _TextureTilingV: 1
+    - _TopLightFalloff: 0.6897392
+    - _TopLightHeight: 4
+    - _TreeLightOn: 1
+    - _UVChannel: 1
+    - _UVSec: 0
+    - _UseVertexColorTint: 0
+    - _UseVertexColorforTint: 0
+    - _UvSwitch: 0
+    - _VertexAOMinimumValue: 0.5
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BakedEmissionColorDay: {r: 0.4622642, g: 0.4622642, b: 0.4622642, a: 0}
+    - _BakedEmissionColorNight: {r: 3.9533494, g: 3.9533494, b: 3.9533494, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0.21859062, g: 0.45850712, b: 1.0183123, a: 1}
+    - _UplightLightColor: {r: 1, g: 0.9923881, b: 0.5566038, a: 0}

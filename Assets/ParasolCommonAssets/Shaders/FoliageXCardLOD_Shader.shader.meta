@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d0d9298c48c35974eaf4ff1702dfdd44
+labels:
+- ExpoSiteShader
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - StandardLUT: {fileID: 2800000, guid: f52d7d612a20d9e48bf402c6fd20c6ee, type: 3}
+  - _WorldSpaceNormal: {fileID: 2800000, guid: 758e4cb23f956f9449fa6b35230bb1a5, type: 3}
+  - SecondLUT: {fileID: 2800000, guid: 993bd617920fc3946a9335909db33769, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

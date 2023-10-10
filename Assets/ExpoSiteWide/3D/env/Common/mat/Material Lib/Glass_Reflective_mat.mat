@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Glass_Reflective_mat
+  m_Shader: {fileID: 4800000, guid: 156c5b0f9278a5c4cb934d45e3acac62, type: 3}
+  m_ShaderKeywords: _EMISSIONSWITCH_ON _ENABLEPBRSAFEFILTER_ON _OVERRIDENIGHTCOLOR_ON
+    _STYLIZEDREFLECTION1_ON _STYLIZEDREFLECTION_ON _USEGLASSCOLOR_ON
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisotropyNormal:
+        m_Texture: {fileID: 2800000, guid: a6ea73d95f330e644b12cbf282d41664, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: f9ec282e94bdae74f9025d52d785478b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionTexture:
+        m_Texture: {fileID: 2800000, guid: 7fff759bee754ac46ad777f09cf09753, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 669bd1207c2536c41bd47d8697929177, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RMAO:
+        m_Texture: {fileID: 2800000, guid: f9ec282e94bdae74f9025d52d785478b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubemap:
+        m_Texture: {fileID: 8900000, guid: 2ea073392128ce944a5cbe4c0dac2780, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionNormal_normal:
+        m_Texture: {fileID: 2800000, guid: 669bd1207c2536c41bd47d8697929177, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection_streaks_texM:
+        m_Texture: {fileID: 8900000, guid: 757f2b0dd6eefd945b39068baefac01d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintMask:
+        m_Texture: {fileID: 2800000, guid: f9ec282e94bdae74f9025d52d785478b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _reflection_texture:
+        m_Texture: {fileID: 8900000, guid: ce33965880f7f654f85ba9bb761df97c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _reflection_texture_night:
+        m_Texture: {fileID: 8900000, guid: 33a5e51ba6a0a6f498811d03b62aabee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - reflection_texture:
+        m_Texture: {fileID: 8900000, guid: ce33965880f7f654f85ba9bb761df97c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - reflection_texture_day1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - reflection_texture_night:
+        m_Texture: {fileID: 8900000, guid: 33a5e51ba6a0a6f498811d03b62aabee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - reflection_texture_night1:
+        m_Texture: {fileID: 8900000, guid: d71738a806f144c479cf97aedb2a9af6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Angle: 2.3
+    - _AnisotropyAngle: 0.435
+    - _AnisotropyTiling: 1
+    - _BakedEmissiveIntensityDay: 1
+    - _BakedEmissiveIntensityNight: 0.9
+    - _BlendGlassReflectionMax: 0.098
+    - _BlendGlassReflectionTop: 0.312
+    - _BotFalloff: 0.31
+    - _BotLightHeight: 1.8
+    - _BrightenVertAO: 0
+    - _BumpScale: 1
+    - _CubeMapSlice: 0.6
+    - _Cutoff: 0.5
+    - _DayNightFloat: 0
+    - _DaytimeEmissiveValue: 0
+    - _DetailNormalMapScale: 1
+    - _DiffuseIntensity: 1
+    - _DstBlend: 0
+    - _EmissionOffsetX: 1
+    - _EmissionOffsetY: 1
+    - _EmissionSwitch: 1
+    - _EmissionTilingX: 1
+    - _EmissionTilingY: 1
+    - _EmissiveType: 2
+    - _EnablePBRSafeFilter: 1
+    - _FalloffMax: 0.224
+    - _FalloffMin: 0.836
+    - _FlipLightDirection: 0
+    - _FlipYNormal: 1
+    - _Float6: -2
+    - _FresnelPower: 0.72
+    - _FresnelScale: 2.34
+    - _GlassColorMixBack: 0.559
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Hue: 0.113
+    - _HueMax: 1
+    - _HueMin: 0.52
+    - _IncreaseMetalness: 0
+    - _MaxBias: 12
+    - _Metallic: 0
+    - _MinBias: -2
+    - _MinimumAO: 0
+    - _MixWithRealReflections: 1
+    - _Mode: 2
+    - _NerfVertAO: 0
+    - _NightFresnelIOR: -0.37
+    - _NightReflectionColorIntensity: 1
+    - _NighttimeEmissiveValue: 0.37
+    - _NormalScale: 0.31
+    - _NormalTiling: 0.26
+    - _OcclusionStrength: 1
+    - _OverrideDayColor: 0
+    - _OverrideNightColor: 1
+    - _PBRColorContrast: 0
+    - _Parallax: 0.02
+    - _PerPixelFogAmount: 1
+    - _Power: 1.25
+    - _ReflectionAngleScaler: 2.5
+    - _ReflectionBrightness: 1
+    - _ReflectionNormalIntensity: 0.5
+    - _Reflectivity: 0.81
+    - _Roughness: 0
+    - _RoughnessCeiling: 0
+    - _RoughnessContrast: 0
+    - _RoughnessFloor: 0.248
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StylizedReflection: 1
+    - _StylizedReflection1: 1
+    - _StylizedReflections: 1
+    - _StylizedShadowIntensity: 0.38
+    - _TextureTiling: 1
+    - _TextureTilingU: 0.22
+    - _TextureTilingU1: 1
+    - _TextureTilingV: 1
+    - _TextureTilingV1: 1
+    - _ToggleDiffuse: 0
+    - _ToggleDiffuse1: 1
+    - _ToggleDiffuse2: 1.29
+    - _TopLightFalloff: 4.04
+    - _TopLightHeight: 11.8
+    - _TreeLightOn: 0.676
+    - _UVChannel: 1
+    - _UVSec: 0
+    - _UseGlassColor: 1
+    - _UseVertexColorTint: 0
+    - _UseVertexColorforTint: 0
+    - _VertexAOMinimumValue: 0.5
+    - _ZWrite: 1
+    - __dirty: 0
+    - _roughnessmax: 0.067
+    - _roughnessmin: 0.074
+    m_Colors:
+    - _BakedEmissionColorDay: {r: 0.4622642, g: 0.4622642, b: 0.4622642, a: 0}
+    - _BakedEmissionColorNight: {r: 0.8862745, g: 0.7374348, b: 0.34509808, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 0.096999995, g: 0.096999995, b: 0.096999995, a: 0}
+    - _EmissionColor: {r: 0.4056604, g: 0.31893298, b: 0, a: 1}
+    - _EmissionColorNight: {r: 0.0627451, g: 0.3137255, b: 0.5019608, a: 1}
+    - _EmissionCompliment: {r: 0.01886791, g: 0.008292155, b: 0.00080099585, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _GlassColor: {r: 0.06256675, g: 0.17676276, b: 0.1792453, a: 0}
+    - _GlassEdges: {r: 0, g: 0.5979853, b: 0.9339623, a: 0}
+    - _InternalColor: {r: 0.4482912, g: 0.52295256, b: 0.6509434, a: 0}
+    - _NightReflectionColor: {r: 0.28764686, g: 0.5613664, b: 0.6037736, a: 1}
+    - _NightSkyboxTint: {r: 0, g: 0, b: 0, a: 1}
+    - _OuterColor: {r: 0.735849, g: 0.9259088, b: 1, a: 0}
+    - _UplightLightColor: {r: 0.9734455, g: 0.57112503, b: 0.15896086, a: 1}
+    - _g_SkyColorBottom: {r: 0.49288, g: 0.735849, b: 0.6534659, a: 0}
+    - _g_SkyColorTop: {r: 0.3027768, g: 0.764151, b: 0.6652851, a: 0}
